@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul ul{
+	list-style: none;
+	display: none;
+}
+
+ul ul li{
+	background-color: rgb(34,34,34);
+	display: block;
+	width: 130px;
+	border: 1px solid rgb(157,157,157);
+	border-radius: 5px;
+	text-align: center;
+	padding: 12px 0px 12px 0px;
+	font-family: tahoma;
+}
+
+ul ul li a{
+	color: rgb(157,157,157);
+	text-decoration: none;
+}
+
+ul ul li a:hover{
+	color: floralwhite;
+}
+
+ul li:hover ul{
+	display: block;
+}
